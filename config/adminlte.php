@@ -134,7 +134,7 @@ return [
     'usermenu_header' => true,
     'usermenu_header_class' => 'bg-danger',
     'usermenu_image' => true,
-    'usermenu_desc' => false,
+    'usermenu_desc' => true,
     'usermenu_profile_url' => false,
 
     /*
