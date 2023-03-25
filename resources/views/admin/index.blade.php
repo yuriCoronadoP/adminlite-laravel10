@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Yuri Videojuegos')
+@section('title', 'Dashboard')
 
 @section('content_header')
     <h1>Videojuegos de yuri</h1>
