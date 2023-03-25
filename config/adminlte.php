@@ -67,7 +67,7 @@ return [
     'logo_img' => 'img/logo.png',
     'logo_img_class' => 'brand-image',
     // 'logo_img_class' => 'brand-image img-circle elevation-3',
-    'logo_img_xl' => 'img/logo.png',
+    'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
     'logo_img_alt' => 'Admin Logo',
 
@@ -135,7 +135,7 @@ return [
     'usermenu_header_class' => 'bg-danger',
     'usermenu_image' => true,
     'usermenu_desc' => true,
-    'usermenu_profile_url' => false,
+    'usermenu_profile_url' => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -149,7 +149,7 @@ return [
     |
     */
 
-    'layout_topnav' => null,
+    'layout_topnav' => false,
     'layout_boxed' => null,
     'layout_fixed_sidebar' => null,
     'layout_fixed_navbar' => null,
@@ -294,7 +294,7 @@ return [
         // Navbar items:
         [
             'type'         => 'navbar-search',
-            'text'         => 'search',
+            'text'         => 'busqueda',
             'topnav_right' => true,
         ],
         [
